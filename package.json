@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-shader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "convert GLSL files to ES6 modules",
   "main": "dist/rollup-plugin-shader.js",
   "module": "dist/rollup-plugin-shader.esm.js",
