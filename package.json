@@ -18,6 +18,14 @@
   },
   "author": "Jiulong Hu <me@hujiulong.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hujiulong/rollup-plugin-shader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hujiulong/rollup-plugin-shader/issues"
+  },
+  "homepage": "https://github.com/hujiulong/rollup-plugin-shader#readme",
   "devDependencies": {
     "@hujiulong/eslint-config": "^0.0.5",
     "babel-core": "^6.26.0",
