@@ -40,7 +40,7 @@ export default {
 
             // All match files will be parsed by default,
             // but you can also specifically include/exclude files
-            include: '*.glsl',
+            include: '**/*.glsl',
             exclude: [ 'node_modules/foo/**', 'node_modules/bar/**' ],
 
             // specify whether to remove comments
