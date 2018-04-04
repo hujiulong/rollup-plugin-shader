@@ -5,18 +5,19 @@ const pkg = require( './package.json' );
 var external = Object.keys( pkg.dependencies );
 
 export default {
-    entry: 'src/index.js',
-    targets: [
+    input: 'src/index.js',
+    output: [
 		{
-            dest: pkg.main,
-            format: 'cjs'
+            file: pkg.main,
+            format: 'cjs',
+            sourcemap: true
         },
         {
-            dest: pkg.module,
-            format: 'es'
+            file: pkg.module,
+            format: 'es',
+            sourcemap: true
         }
     ],
     plugins: [ babel() ],
-    external: external,
-    sourceMap: true
+    external: external
 };
